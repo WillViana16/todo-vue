@@ -27,7 +27,7 @@
     return estado.tarefas.filter(tarefa => tarefa.finalizada)
   }
 
-  const getTarefasFiltradas = () => {
+  const getTarefasFiltradas = () => { 
     const { filtro } = estado; 
 
     switch (filtro) {
@@ -59,10 +59,4 @@ const cadastraTarefa = () => {
   </div>
 </template>
 
-<style scoped>
-  
-  .done {
-    text-decoration: line-through;
-  }
 
-</style>
